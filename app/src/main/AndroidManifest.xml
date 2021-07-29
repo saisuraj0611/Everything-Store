@@ -9,6 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EverythingStore">
+        <activity android:name=".SellerRegister"></activity>
+        <activity android:name=".BuyerRegister" />
+        <activity android:name=".PostSellerLogin" />
+        <activity android:name=".OtpSellerActivity" />
+        <activity android:name=".SellerLogin" />
+        <activity android:name=".PostBuyerLogin" />
+        <activity android:name=".OtpBuyerActivty" />
+        <activity android:name=".BuyerLogin" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="Home" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
